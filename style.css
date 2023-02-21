@@ -28,4 +28,5 @@ img {
   /*1.25 *2 (margin on each side) 2.5 *4 =10% */
   margin: 1.25%;
   /* The float CSS property places an element on the left or right side of its container/parent element  allowing text and inline elements to wrap around it. the element is removed from the normal document flow. also removed the "mystery space between image elements in html file */
+  float: right;
 }
