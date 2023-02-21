@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  background-color: #feee;
+}
+p {
+  font-family: "ubuntu", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  /* VW (viewport width) sets the font/text size based on the width of the viewport aka browser window */
+  font-size: 2vw;
+  text-align: center;
+  border-bottom: 5px solid #ccc;
+  padding-bottom: 10px;
+  /* width of the p element aka bottom border */
+  width: 47.5%;
+  margin: auto;
+}
+img {
+  width: 22.5%;
+  /*1.25 *2 (margin on each side) 2.5 *4 =10% */
+  margin: 1.25%;
+  /* The float CSS property places an element on the left or right side of its container/parent element  allowing text and inline elements to wrap around it. the element is removed from the normal document flow. also removed the "mystery space between image elements in html file */
+}
